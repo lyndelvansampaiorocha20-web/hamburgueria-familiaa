@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hamburgueria Família</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #111;
+      color: #fff;
+    }
+    header {
+      background: url('https://images.unsplash.com/photo-1550547660-d9450f859349') center/cover no-repeat;
+      padding: 80px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.2em;
+      margin-bottom: 20px;
+    }
+    .buttons a {
+      display: inline-block;
+      margin: 10px;
+      padding: 15px 25px;
+      background-color: #e63946;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      color: #f1c40f;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    .menu {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .item {
+      background-color: #1c1c1c;
+      padding: 20px;
+      border-radius: 10px;
+    }
+    .item h3 {
+      margin-top: 0;
+    }
+    .price {
+      font-weight: bold;
+      color: #2ecc71;
+    }
+    footer {
+      background-color: #000;
+      padding: 20px;
+      text-align: center;
+      font-size: 0.9em;
+    }
+    .whatsapp {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25d366;
+      color: #fff;
+      padding: 15px 20px;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Hamburgueria Família</h1>
+  <p>O sabor que reúne a família</p>
+  <div class="buttons">
+    <a href="#cardapio">Pedir pelo site</a>
+    <a href="https://wa.me/5586995928189" target="_blank">Pedir pelo WhatsApp</a>
+  </div>
+</header>
+
+<section id="cardapio">
+  <h2>🍔 Cardápio</h2>
+  <div class="menu">
+    <div class="item">
+      <h3>Família Burger</h3>
+      <p>Pão brioche, hambúrguer artesanal, queijo, alface, tomate e molho da casa</p>
+      <p class="price">R$ 24,90</p>
+    </div>
+    <div class="item">
+      <h3>Cheese Bacon</h3>
+      <p>Pão brioche, hambúrguer, queijo derretido, bacon crocante</p>
+      <p class="price">R$ 27,90</p>
+    </div>
+    <div class="item">
+      <h3>Duplo Família</h3>
+      <p>Dois hambúrgueres, dobro de queijo e molho especial</p>
+      <p class="price">R$ 32,90</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>📍 Sobre Nós</h2>
+  <p style="text-align:center; max-width:700px; margin:auto;">
+    A Hamburgueria Família nasceu para levar sabor, qualidade e aquele lanche especial que junta todo mundo na mesa.
+  </p>
+</section>
+
+<section>
+  <h2>⏰ Informações</h2>
+  <p style="text-align:center;">
+    📍 Esperantina - PI<br>
+    Rua Projetada 45, s/n – descendo o Posto do Chico, Fazendinha<br><br>
+    💬 WhatsApp: (86) 99592-8189
+  </p>
+</section>
+
+<footer>
+  <p>© 2026 Hamburgueria Família - Todos os direitos reservados</p>
+</footer>
+
+<a class="whatsapp" href="https://wa.me/5586995928189" target="_blank">WhatsApp</a>
+
+</body>
+</html>
